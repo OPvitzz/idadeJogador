@@ -1,0 +1,24 @@
+programa {
+funcao inicio() {
+inteiro idade, i, maioridade, menoridade
+para(i =1; i<=11;i++){
+escreva("digite a idade do jogador: ")
+leia(idade)
+se(i==1){
+maioridade=idade
+maioridade=idade
+}
+senao{
+se(idade >maioridade){
+maioridade=idade
+}
+se(idade <menoridade){
+menoridade=idade
+}
+}
+}
+escreva("a idade do jogador maior é: ", maioridade)
+escreva(" a idade do jogador menor é", menoridade)
+
+}
+}
